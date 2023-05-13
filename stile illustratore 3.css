@@ -1,0 +1,154 @@
+
+html, body{
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    background: #c8e2f0;
+}
+
+img {
+    max-width: 100%;
+    height: auto; /* serve a eliminare il margin-bottom che le immagini hanno di default */
+}
+
+
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+header {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: #28A3DD;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #FB9334;
+}
+
+header div.content h1 {
+    font-weight: bold;
+    margin:16px;
+    font-size: 50px;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+header div.content h1:hover {
+    text-decoration: none;
+    color: #FB9334;
+}
+
+header ul {
+    margin: 0%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+div.hero {
+    max-width: 1145px;
+    background:#FB9334;/* colore impostato con RGB e con la trasparenza, che si può notare sopratutto quando cambia il colore di sfondo */
+    border-radius: 45px;
+    margin-top: 30px;
+    margin-left: 165px;
+    padding-left: 30px;
+    padding-right:30px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+
+section.hero h1 {
+    margin: 0;
+    padding: 40px ;
+    font-size: 60px;
+    color: #414A4F;
+}
+
+main {
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+}
+
+
+
+main div.card img {
+   
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
+
+
+main div img {
+    border-radius: 70px;
+}
+
+
+
+
+main div.card p {
+    margin: 0;
+    padding: 0 20px 20px 20px;
+    font-size: 14px;
+    line-height: 1.5; /* l'interlinea del testo */
+}
+
+main div.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap:20px;
+}
+.contacts{
+    background: #FB9334;
+    margin-left:165px;
+     width: 650px;
+    border-radius: 50px;
+    padding: 5px 15px;
+}
+div.end{
+    max-width: 100px;
+margin-left: 165px;
+ text-align:start;
+ margin-top: 50px;
+}
+
+section.footer{
+    background-color: #003d59;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 90px;
+    text-align: center;
+    line-height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+section.footer a {
+    text-decoration: unset;
+}

@@ -1,0 +1,115 @@
+html, body{
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    background: #c8e2f0;
+}
+
+header {
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    background-color: #28A3DD;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+header a:hover {
+    text-decoration: none;
+    color: #FB9334;
+}
+
+header div.content h1 {
+    font-weight: bold;
+    margin:16px;
+    font-size: 50px;
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+header div.content h1:hover {
+    text-decoration: none;
+    color: #FB9334;
+}
+
+header ul {
+    margin: 0%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+section.hero {
+    background:rgba(243,191,105, 0.8);/* colore impostato con RGB e con la trasparenza, che si può notare sopratutto quando cambia il colore di sfondo */
+    border-radius: 50px;
+    margin: 60px;
+    margin-left: 1%;
+    max-width: 975px;
+}
+
+
+section.hero h1 {
+    margin: 20px;
+    padding: 30px 10px;
+    font-size: 30px;
+    color: #414A4F;
+}
+section.hero2 {
+    background:#FB9334;/* colore impostato con RGB e con la trasparenza, che si può notare sopratutto quando cambia il colore di sfondo */
+    border-radius: 50px;
+    margin: 60px;
+    margin-left: 1%;
+    max-width: 800px;
+    margin: 20px;
+    font-size: 30px;
+    color: #414A4F;
+    padding: 5px 30px
+}
+
+section.hero1 {
+    max-width: 1000px;
+    background:rgba(58, 106, 201, 0.8);/* colore impostato con RGB e con la trasparenza, che si può notare sopratutto quando cambia il colore di sfondo */
+    text-align: right;
+    border-radius: 50px;
+    margin-left: 690px;
+    
+}
+
+
+section.hero1 h1 {
+    margin: 20px;
+    padding: 30px 10px;
+    font-size: 30px;
+    color: #414A4F;
+}
+
+
+
+section.footer{
+    background-color: #003d59;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 90px;
+    text-align: center;
+    line-height: 40px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding: 30px;
+}
+
+section.footer a {
+    text-decoration: unset;
+}
